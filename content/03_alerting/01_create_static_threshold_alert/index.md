@@ -3,7 +3,7 @@
 While Dynatrace will automatically detect when disk space is low, a few of our app teams are noisy loggers and we want to warn them of disk space utilization earlier.
 We don’t want to change the OOTB Anomaly Detection as that will let us know when disk is critical. We just want an early warning alert.
 
-![staticthreshold](../../assets/images/staticthreshold.png)
+![staticthreshold](../../../assets/images/staticthreshold.png)
 
 ### Exercise Steps
 
