@@ -6,4 +6,4 @@ By default, Dynatrace auto-discovers logs, but we must tell it to ingest those d
 - Navigate to Settings> Log Monitoring > Log Sources and Storage.
 - Change the drop down scope to “include all logs” and save changes.
 
-![logenable](../../assets/images/logenable.png)
+![logenable](../../../assets/images/logenable.png)
