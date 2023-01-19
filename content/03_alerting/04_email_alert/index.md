@@ -3,7 +3,7 @@
 - Now that we’ve created an Alerting Profile (filtered/grouped the alerts), let’s tell Dynatrace what to do when that triggers.
 
 
-![emailalert1](../../assets/images/emailalert1.png)
+![emailalert1](../../../assets/images/emailalert1.png)
 
 ### Exercise Steps
 
@@ -16,4 +16,4 @@
 * Save Changes
 3. Send test notification
 
-![emailalert2](../../assets/images/emailalert2.png)
+![emailalert2](../../../assets/images/emailalert2.png)
