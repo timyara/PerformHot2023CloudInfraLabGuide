@@ -13,7 +13,7 @@ content="clb”
 - We can parse these to use them in queries and metrics!
 - Click Create processing rule
 
-![logmetric1](../../assets/images/logmetric1.png)
+![logmetric1](../../../assets/images/logmetric1.png)
 
 ### CLB Log Parser with log level
 - We need to create 2 parsers because sometimes the logs have info: or error: in front of the content and sometimes it doesn’t.
@@ -27,7 +27,7 @@ content=": clb”
 PARSE(content, "LD:log.level ':' SPACE STRING:clb.name SPACE IPADDR:client.ip ':' INT:client.port SPACE IPADDR:backend.ip ':' INT:'backend.port' SPACE double:'request.processing.time' SPACE double:'backend.processing.time'
 SPACE double:'response.processing.time' SPACE INT:elb.status_code SPACE INT:backend.status.code SPACE INT:recieved.bytes SPACE INT:sent.bytes SPACE STRING:request SPACE")
 ```
-![logmetric2](../../assets/images/logmetric2.png)
+![logmetric2](../../../assets/images/logmetric2.png)
 
 ### CLB Log Parser with log level
 - Matcher:
@@ -41,7 +41,7 @@ SPACE double:'response.processing.time' SPACE INT:elb.status_code SPACE INT:back
 ```
 - Ensure the without log level rule is under the with rule
 
-![logmetric3](../../assets/images/logmetric3.png)
+![logmetric3](../../../assets/images/logmetric3.png)
 
 
 ### Create the Metric
@@ -54,8 +54,8 @@ SPACE double:'response.processing.time' SPACE INT:elb.status_code SPACE INT:back
 - Attribute: request.processing.time
 - Click Save changes
 
-![logmetric4](../../assets/images/logmetric4.png)
-![logmetric5](../../assets/images/logmetric5.png)
+![logmetric4](../../../assets/images/logmetric4.png)
+![logmetric5](../../../assets/images/logmetric5.png)
 
 
 ### Add the metric to the dashboard
@@ -64,4 +64,4 @@ SPACE double:'response.processing.time' SPACE INT:elb.status_code SPACE INT:back
 - Type in log.clb to find your metric
 - Run Query
 - Pin to dashboard
-![logmetric6](../../assets/images/logmetric6.png)
+![logmetric6](../../../assets/images/logmetric6.png)
