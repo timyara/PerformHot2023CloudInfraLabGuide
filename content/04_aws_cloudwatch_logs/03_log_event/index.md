@@ -4,7 +4,7 @@
 - When that happens, I want Dynatrace to create a log event and alert on it.
 
 
-![logevent1](../../assets/images/logevent1.png)
+![logevent1](../../../assets/images/logevent1.png)
 
 ### Find the RDS Log
 - Find the RDS connect error log records
@@ -15,7 +15,7 @@ unable to connect
 ```
 - Copy the entire log content
 
-![logevent2](../../assets/images/logevent2.png)
+![logevent2](../../../assets/images/logevent2.png)
 
 ### Create Log Event
 - Navigate to Settings> Log Monitoring> Events Extraction
