@@ -5,7 +5,7 @@
 - The number of errors may fluctuate, and it would be great if Dynatrace could auto-adapt and let us know when big spikes occur
 
 
-![autoadaptive](../../assets/images/autoadaptive.png)
+![autoadaptive](../../../assets/images/autoadaptive.png)
 
 ### Exercise Steps
 
