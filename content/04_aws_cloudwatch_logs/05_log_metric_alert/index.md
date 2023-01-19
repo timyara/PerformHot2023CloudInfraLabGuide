@@ -2,7 +2,7 @@
 
 - My AWS networking team wants to alert on the CLB request processing time, but doesn’t know what they should use for the threshold.
 
-![logmetricalert](../../assets/images/logmetricalert.png)
+![logmetricalert](../../../assets/images/logmetricalert.png)
 
 ### Exercise Steps
 - Find the RDS connect error log records
