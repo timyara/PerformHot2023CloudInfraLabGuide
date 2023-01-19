@@ -2,7 +2,7 @@
 
 We want to be able to see the newest error logs coming from our AWS Services
 
-![logtroubleshooting](../../assets/images/logtroubleshooting.png)
+![logtroubleshooting](../../../assets/images/logtroubleshooting.png)
 
 ### Exercise Steps
 - Navigate to the log viewer in Dynatrace
